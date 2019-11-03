@@ -34,3 +34,11 @@ brew install (OPTIONS) subversion
 ```
 python3 SelectFile.py URL
 ```
+
+### 実行例
+このレポジトリのsampleフォルダの中身をダンロードするものになる。
+この[リンク](https://github.com/Sabanna-Hirokazu/GitHub-SelectFile/tree/master/sample)はsampleフォルダの中のリンクであり、このURLを入れることでsampleフォルダとその中にあるsample.pyとsample1のフォルダとその中に含まれるsample2.pyをダンロードすることができる。
+
+```
+python3 SelectFile.py https://github.com/Sabanna-Hirokazu/GitHub-SelectFile/tree/master/sample
+```
