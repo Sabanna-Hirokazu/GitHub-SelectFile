@@ -6,7 +6,7 @@ if __name__ == "__main__":
     args = sys.argv
     for i in range(1, len(args)):
         url = "https://github.com/"
-        hit = re.match(r'https://github.com/(\w*/\w*)/([a-zA-Z0-9_/.]*)', args[i])
+        hit = re.match(r'https://github.com/([\w\-]*/[\w\-]*)/([a-zA-Z0-9\-_/.]*)', args[i])
         try:
             url += hit.group(1)
             rec = re.match(r'\w*/master/([a-z_A-Z/0-9.]*)', hit.group(2))
